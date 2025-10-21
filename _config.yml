@@ -1,16 +1,22 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Meu Blog
+description: Blog pessoal com projetos e informações de contato
 theme: just-the-docs
 
 url: https://gabrielramos731.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub: https://github.com/gabrielramos731
 
-collections:
-  docs1:
-    output: true
-    permalink: /docs1/:path/
+# Include pages from _pages folder
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      layout: "default"
     
 color_scheme: dark
 
