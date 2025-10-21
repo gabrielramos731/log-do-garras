@@ -8,5 +8,5 @@ gem "just-the-docs", "0.10.1" # pinned to the current release
 
 source 'https://rubygems.org'
 gem 'nokogiri'
-gem 'rack', '~> 2.2.4'
+gem 'rack', '~> 3.2.3'
 gem 'rspec'
