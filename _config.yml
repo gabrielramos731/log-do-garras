@@ -1,8 +1,9 @@
-title: Meu Blog
+title: Log do Garras
 description: Blog pessoal com projetos e informações de contato
 theme: just-the-docs
 
 url: https://gabrielramos731.github.io
+baseurl: /log-do-garras  # Nome do repositório
 
 aux_links:
   GitHub: https://github.com/gabrielramos731
